@@ -1,0 +1,11 @@
+body {
+    font-family: var(--ff-manrope);
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+}
+
+.container {
+    width: calc(100% - 2rem);
+    max-width: 1170px;
+    margin: 0 auto;
+}

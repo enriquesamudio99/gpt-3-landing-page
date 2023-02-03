@@ -1,6 +1,10 @@
+import './App.scss';
+
 const App = () => {
     return (
-        <div>GPT-3</div>
+        <div className="container">
+            <div>GPT-3</div>
+        </div>
     );
 }
 
