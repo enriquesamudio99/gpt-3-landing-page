@@ -4,8 +4,35 @@ body {
     color: var(--clr-white);
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
 .container {
     width: calc(100% - 2rem);
-    max-width: 1170px;
     margin: 0 auto;
+
+    @media screen and (min-width: 576px) {
+        max-width: 550px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 650px;
+    }
+
+    @media screen and (min-width: 992px) {
+        max-width: 900px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 1170px;
+    }
 }

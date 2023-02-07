@@ -5,19 +5,22 @@
     --ff-manrope: 'Manrope', sans-serif;
 
     // Colors
-    --clr-primary-800: hsl(11, 100%, 46%);
+    --clr-primary-800: hsl(11, 100%, 50%);
     --clr-primary-600: #FF4820;
     --clr-primary-400: #FF8A71;
     --clr-secondary-800: #031B34;
-    --clr-secondary-600: #042C54;
-    --clr-secondary-400: #71E5FF;
-    --clr-secondary-200: #81AFDD;
+    --clr-secondary-700: #042C54;
+    --clr-secondary-600: #052D56;
+    --clr-tertiary-600: #3D6184;
+    --clr-tertiary-400: #81AFDD;
+    --clr-tertiary-200: #71E5FF;
     --clr-dark: #040C18;
     --clr-white: #FFFFFF;
     --clr-black: #000000;
 
     // Font Sizes
-    --fs-display-lg: 3.875rem;
+    --fs-display-xl: 3.875rem;
+    --fs-display-lg: 2.625rem;
     --fs-display-md: 2.125rem;
     --fs-display-sm: 1.5rem;
     --fs-display-xs: 1.125rem;
@@ -28,7 +31,8 @@
     --fs-body-xs: 0.75rem;
 
     // Line Heights
-    --lh-display-lg: 4.6875rem;
+    --lh-display-xl: 4.6875rem;
+    --lh-display-lg: 3rem;
     --lh-display-md: 2.8125rem;
     --lh-display-sm: 1.875rem;
     --lh-display-xs: 1.5rem;
@@ -45,6 +49,9 @@
     --fw-semi-bold: 600;
     --fw-bold: 700;
     --fw-extra-bold: 800;
+
+    // Gradients
+    --gradient-one: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
 
 *,
@@ -66,6 +73,12 @@ ol[role='list'] {
 
 html:focus-within {
     scroll-behavior: smooth;
+}
+
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
 }
 
 body {

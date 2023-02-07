@@ -1,0 +1,53 @@
+.header {
+
+    &__container {
+        position: relative;
+    }
+
+    &__gradient {
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+
+        &--one {
+            width: 340px;
+            height: 340px;
+            background-color: #002853;
+            top: -170px;
+            left: -170px;
+            filter: blur(282px);
+
+            @media screen and (min-width: 576px) {
+                width: 540px;
+                height: 540px;
+                top: -270px;
+                left: -270px;
+            }
+
+            @media screen and (min-width: 1280px) {
+                width: 1013px;
+                height: 1013px;
+                top: -506px;
+                left: -506px;
+            }
+
+        }
+
+        &--two {
+            width: 140px;
+            height: 140px;
+            background-color: #072D56;
+            bottom: -70px;
+            right: -70px;
+            filter: blur(282px);
+
+            @media screen and (min-width: 1280px) {
+                width: 701px;
+                height: 496px;
+                bottom: 0;
+                right: -523px;
+            }
+        }
+    }
+
+}
