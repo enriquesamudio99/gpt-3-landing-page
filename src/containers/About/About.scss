@@ -4,6 +4,7 @@
         background-color: var(--clr-secondary-700);
         padding: 3rem 1.25rem;
         position: relative;
+        z-index: 2;
         overflow: hidden;
 
         @media screen and (min-width: 768px)  {

@@ -6,6 +6,7 @@ import slack from '../assets/images/slack.png';
 import atlassian from '../assets/images/atlassian.png';
 import dropbox from '../assets/images/dropbox.png';
 import shopify from '../assets/images/shopify.png';
+import possibility from '../assets/images/possibility.png';
 
 export default {
     logo,
@@ -15,5 +16,6 @@ export default {
     slack,
     atlassian,
     dropbox,
-    shopify
+    shopify,
+    possibility
 }

@@ -4,7 +4,7 @@ import { Feature } from '../../components';
 
 const About = () => {
     return (
-        <div className="about">
+        <section className="about">
             <div className="about__container container">
                 <div className="about__gradient about__gradient--one"></div>
                 <div className="about__gradient about__gradient--two"></div>
@@ -25,7 +25,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

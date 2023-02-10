@@ -5,8 +5,9 @@ import { Feature } from '../../components';
 const Features = () => {
 
     return (
-        <div className="features">
+        <section className="features">
             <div className="features__container container">
+                <div className="features__gradient"></div>
                 <div className="features__data">
                     <h2 className="features__title">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
                     <a href="#" className="features__link">Request Early Access to Get Started</a>
@@ -18,7 +19,7 @@ const Features = () => {
                     <Feature title="Really boy law county" text="Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush." futureSection={true} />
                 </div>
             </div>
-        </div>
+        </section>
     );
 
 }
