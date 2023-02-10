@@ -1,6 +1,6 @@
 import './App.scss';
 
-import { About, Header } from './containers';
+import { About, Features, Header } from './containers';
 
 const App = () => {
     return (
@@ -8,6 +8,7 @@ const App = () => {
             <Header />
             <main className="main">
                 <About />
+                <Features />
             </main>
         </>
     );
