@@ -5,7 +5,7 @@ import { images } from '../../constants';
 const Possibility = () => {
     
     return (
-        <section className="possibility">
+        <section className="possibility" id="possibility">
             <div className="possibility__container container">
                 <div className="possibility__image-container">
                     <img src={images.possibility} alt="Possibility Image" className="possibility__image" />

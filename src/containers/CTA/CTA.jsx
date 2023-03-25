@@ -2,7 +2,7 @@ import './CTA.scss';
 
 const CTA = () => {
     return (
-        <section className="cta">
+        <section className="cta" id="cta">
             <div className="cta__container container">
                 <div className="cta__data">
                     <p className="cta__subtitle">Request Early Access to Get Started</p>

@@ -40,9 +40,18 @@
         color: var(--clr-primary-400);
         font-size: var(--fs-body-md);
         line-height: var(--lh-body-md);
+        transition: color .3s ease;
+
+        &:hover {
+            color: var(--clr-primary-600);
+        }
 
         &--top {
             color: var(--clr-tertiary-200);
+
+            &:hover {
+                color: var(--clr-tertiary-400);
+            }
         }
     }
 

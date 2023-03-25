@@ -56,6 +56,12 @@
         line-height: var(--lh-body-lg);
         padding: 1rem 2.625rem;
         border-radius: 40px;
+        transition: background-color .3s ease;
+
+        &:hover {
+            background-color: var(--clr-dark);
+        }
+
     }
 
 }

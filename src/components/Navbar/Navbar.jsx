@@ -20,16 +20,16 @@ const Navbar = () => {
                             <a className="nav__link" href="#">Home</a>
                         </li>
                         <li className="nav__item">
-                            <a className="nav__link" href="#">What is GPT?</a>
+                            <a className="nav__link" href="#about">What is GPT?</a>
                         </li>
                         <li className="nav__item">
-                            <a className="nav__link" href="#">Open AI</a>
+                            <a className="nav__link" href="#features">Open AI</a>
                         </li>
                         <li className="nav__item">
-                            <a className="nav__link" href="#">Case Studies</a>
+                            <a className="nav__link" href="#possibility">Possibilities</a>
                         </li>
                         <li className="nav__item">
-                            <a className="nav__link" href="#">Library</a>
+                            <a className="nav__link" href="#blog">Blog</a>
                         </li>
                     </ul>
                     <ul className="nav-cta">
@@ -41,30 +41,32 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <button className="navbar__toggler">
-                    {toggleMenu
-                        ? <RiCloseLine className="navbar__toggler-icon" color="#FFF" size={28} onClick={() => setToggleMenu(false)} />
-                        : <RiMenu3Line className="navbar__toggler-icon" color="#FFF" size={28} onClick={() => setToggleMenu(true)} />
-                    }
+                <button className="navbar__open-menu">
+                    <RiMenu3Line className="navbar__open-menu-icon" color="#FFF" size={28} onClick={() => setToggleMenu(true)} />
                 </button>
-                <div className={`mobile-menu-container ${toggleMenu ? "mobile-menu-container--open" : ""}`} >
-                    <ul className="mobile-menu">
-                        <li className="mobile-menu__item">
-                            <a className="mobile-menu__link" href="#" onClick={() => setToggleMenu(false)}>Home</a>
-                        </li>
-                        <li className="mobile-menu__item">
-                            <a className="mobile-menu__link" href="#" onClick={() => setToggleMenu(false)}>What is GPT?</a>
-                        </li>
-                        <li className="mobile-menu__item">
-                            <a className="mobile-menu__link" href="#" onClick={() => setToggleMenu(false)}>Open AI</a>
-                        </li>
-                        <li className="mobile-menu__item">
-                            <a className="mobile-menu__link" href="#" onClick={() => setToggleMenu(false)}>Case Studies</a>
-                        </li>
-                        <li className="mobile-menu__item">
-                            <a className="mobile-menu__link" href="#" onClick={() => setToggleMenu(false)}>Library</a>
-                        </li>
-                    </ul>
+                <div className={`mobile-menu ${toggleMenu ? "mobile-menu--open" : ""}`} >
+                    <div className="mobile-menu__container container">
+                        <button className="navbar__close-menu">
+                            <RiCloseLine className="navbar__close-menu-icon" color="#FFF" size={28} onClick={() => setToggleMenu(false)} />
+                        </button>
+                        <ul className="mobile-menu__list">
+                            <li className="mobile-menu__list-item">
+                                <a className="mobile-menu__list-link" href="#" onClick={() => setToggleMenu(false)}>Home</a>
+                            </li>
+                            <li className="mobile-menu__list-item">
+                                <a className="mobile-menu__list-link" href="#about" onClick={() => setToggleMenu(false)}>What is GPT?</a>
+                            </li>
+                            <li className="mobile-menu__list-item">
+                                <a className="mobile-menu__list-link" href="#features" onClick={() => setToggleMenu(false)}>Open AI</a>
+                            </li>
+                            <li className="mobile-menu__list-item">
+                                <a className="mobile-menu__list-link" href="#possibility" onClick={() => setToggleMenu(false)}>Possibilities</a>
+                            </li>
+                            <li className="mobile-menu__list-item">
+                                <a className="mobile-menu__list-link" href="#blog" onClick={() => setToggleMenu(false)}>Blog</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>      
             </div>
         </nav>

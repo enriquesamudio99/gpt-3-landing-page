@@ -38,6 +38,10 @@
         font-size: var(--fs-body-sm);
         line-height: var(--lh-body-sm);
         font-weight: var(--fw-bold);
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
 }

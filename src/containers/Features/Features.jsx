@@ -5,7 +5,7 @@ import { Feature } from '../../components';
 const Features = () => {
 
     return (
-        <section className="features">
+        <section className="features" id="features" >
             <div className="features__container container">
                 <div className="features__gradient"></div>
                 <div className="features__data">

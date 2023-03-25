@@ -75,6 +75,7 @@ ol[role='list'] {
 
 html:focus-within {
     scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
 }
 
 html,

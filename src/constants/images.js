@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.svg';
 import heroIllustration from '../assets/images/hero-illustration.svg';
 import people from '../assets/images/people.png';
 import google from '../assets/images/google.png';

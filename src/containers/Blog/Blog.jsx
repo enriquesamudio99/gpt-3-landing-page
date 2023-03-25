@@ -5,7 +5,7 @@ import { images } from '../../constants';
 
 const Blog = () => {
     return (
-        <section className="blog">
+        <section className="blog" id="blog">
             <div className="blog__container container">
                 <h2 className="blog__title">A lot is happening, <br />We are blogging about it.</h2>
 

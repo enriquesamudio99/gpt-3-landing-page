@@ -66,6 +66,12 @@
         color: var(--clr-primary-400);
         font-size: var(--fs-body-md);
         line-height: var(--lh-body-md);
+        transition: color .3s ease;
+
+        &:hover {
+            color: var(--clr-primary-600);
+        }
+
     }
 
     &__grid {
